@@ -1,10 +1,13 @@
-.topbar{
+.topbar {
     width: 100vw;
     height: 50px;
     background-color: lightskyblue;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
-.topbarWrapper{
+.topbarWrapper {
     height: 100%;
     padding: 0px 20px;
     display: flex;
@@ -12,9 +15,20 @@
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     font-weight: bold;
     font-size: 30px;
     color: darkblue;
     cursor: pointer;
+}
+
+.topRight {
+    display: flex;
+    align-items: center;
+}
+
+.iconsContainer {
+    cursor: pointer;
+    margin-right: 18px;
+    color: #555;
 }
