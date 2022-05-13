@@ -1,6 +1,7 @@
-import { Link, Outlet } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
+// import { Link, Outlet } from 'react-router-dom';
+import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/topbar/Topbar';
+import Home from './pages/Home';
 
 
 export default function App() {
@@ -9,7 +10,7 @@ export default function App() {
       <Topbar />
       <div style={{ display: 'flex' }}>
         <Sidebar />
-        <div style={{ flex: 4, backgroundColor: "darkcyan" }}>
+        {/* <div style={{ flex: 4, backgroundColor: "darkcyan" }}>
           <nav
           style={{
             borderBottom: "solid 1px",
@@ -21,11 +22,10 @@ export default function App() {
           <Link to="/RSE">RSE</Link>
         </nav>
           <Outlet />
-          test
-        </div>
-      </div>
-
-
+          
+        </div>*/}
+       <Home /> 
+      </div> 
     </section>
   )
 }
