@@ -1,0 +1,9 @@
+.select {
+    color: #BDBDBD !important;
+    cursor: pointer !important;
+}
+
+.select.active, .select:hover {
+    color: #369FFF !important;
+    background-color: none !important;
+}

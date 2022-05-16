@@ -13,7 +13,8 @@ export default function Topbar() {
                     width: '632px',
                     height: '32px',
                     border: 'solid 1px #BDBDBD',
-                    paddingLeft: '20px'
+                    paddingLeft: '20px',
+                    borderRadius: '10px 0px 0px 0px'
                 }} />
                 <button type={'submit'} 
                 style={{
@@ -22,9 +23,18 @@ export default function Topbar() {
                     border: 'none',
                     backgroundColor: '#EA612D',
                     cursor: 'pointer',
-                    marginLeft: '-1px',
+                    marginLeft: '-2px',
+                    borderRadius: '0px 10px 10px 0px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
                 }} >
-                    <img src="/Iconly/broken/search.svg" alt="search" />
+                    <img 
+                    src="/img/lens.svg" 
+                    alt="search"
+                    style={{
+                        marginTop: '8px',
+                    }} />
                 </button>
             </div>
         </div>

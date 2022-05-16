@@ -8,6 +8,7 @@
 
 .sidebarListItems.active, .sidebarListItems:hover {
     color: #369FFF;
+    text-decoration: underline!important;
 }
 
 .sidebarIcons{

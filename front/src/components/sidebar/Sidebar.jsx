@@ -12,6 +12,7 @@ export default function Sidebar() {
       position: 'sticky',
       top: '50px',
       borderRight: '2px solid #F0F0F0',
+      backgroundColor: '#F0F0F0',
       }}>
       <div style={{
         padding: '78px 20px',
