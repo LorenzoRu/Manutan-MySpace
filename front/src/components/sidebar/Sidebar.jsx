@@ -1,7 +1,7 @@
-import React from 'react';
-import { LineStyle, Timeline, TrendingUp, PersonOutline, Storefront, Euro, Equalizer, Mail, FeedbackOutlined, MessageOutlined, WorkOutlineOutlined, ReportGmailerrorredOutlined } from "@mui/icons-material"
-import "./sidebar.css"
 
+import React from 'react';
+import { Setting } from 'react-iconly';
+import "./sidebar.css";
 
 
 export default function Sidebar() {
@@ -11,102 +11,40 @@ export default function Sidebar() {
       height: 'calc(100vh - 50px)',
       position: 'sticky',
       top: '50px',
-      backgroundColor: 'lightgray',
-    }}>
-      <div style={{
-        padding: '20px',
-        color: '#555',
+      borderRight: '2px solid #F0F0F0',
       }}>
+      <div style={{
+        padding: '78px 20px',
+        color: '#BDBDBD',
+        }}>
         <div style={{ marginBottom: '10px', }}>
-
-          <h3 style={{
-            fontSize: '16px',
-            color: "darkorchid"
-          }}>Dashboard</h3>
           <ul style={{
             listStyle: 'none',
             padding: '5px'
           }}>
             <li className="sidebarListItems active">
-              <LineStyle className='sidebarIcons' />
-              Home
+            
+              Overview
             </li>
             <li className="sidebarListItems">
-              <Timeline className='sidebarIcons' />
-              Analytics
+             
+              Course
             </li>
             <li className="sidebarListItems">
-              <TrendingUp className='sidebarIcons' />
-              Sales
+              Resources
+            </li>
+            <li className="sidebarListItems">
+              Messages
+            </li>
+            <li className="sidebarListItems">
+              Settings
             </li>
           </ul>
-          <h3 style={{
-            fontSize: '16px',
-            color: "darkorchid"
-          }}>Quick Menu</h3>
-          <ul style={{
-            listStyle: 'none',
-            padding: '5px'
-          }}>
-            <li className="sidebarListItems">
-              <PersonOutline className='sidebarIcons' />
-              Users
-            </li>
-            <li className="sidebarListItems">
-              <Storefront className='sidebarIcons' />
-              Products
-            </li>
-            <li className="sidebarListItems">
-              <Euro className='sidebarIcons' />
-              Transactions
-            </li>
-            <li className="sidebarListItems">
-              <Equalizer className='sidebarIcons' />
-              Reports
-            </li>
-          </ul>
-          <h3 style={{
-            fontSize: '16px',
-            color: "darkorchid"
-          }}>Notification</h3>
-          <ul style={{
-            listStyle: 'none',
-            padding: '5px'
-          }}>
-            <li className="sidebarListItems">
-              <Mail className='sidebarIcons' />
-              Mail
-            </li>
-            <li className="sidebarListItems">
-              <FeedbackOutlined className='sidebarIcons' />
-              Feedback
-            </li>
-            <li className="sidebarListItems">
-              <MessageOutlined className='sidebarIcons' />
-              Sales
-            </li>
-          </ul>
-          <h3 style={{
-            fontSize: '16px',
-            color: "darkorchid"
-          }}>Staff</h3>
-          <ul style={{
-            listStyle: 'none',
-            padding: '5px'
-          }}>
-            <li className="sidebarListItems">
-              <WorkOutlineOutlined className='sidebarIcons' />
-              Manage
-            </li>
-            <li className="sidebarListItems">
-              <Timeline className='sidebarIcons' />
-              Analytics
-            </li>
-            <li className="sidebarListItems">
-              <ReportGmailerrorredOutlined className='sidebarIcons' />
-              Reports
-            </li>
-          </ul>
+          <img src="/img/caracter.svg" 
+          alt="caracter" 
+          style={{
+            marginTop: '170px',
+          }} />
         </div>
       </div>
     </div>

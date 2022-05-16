@@ -7,7 +7,7 @@
 }
 
 .sidebarListItems.active, .sidebarListItems:hover {
-    background-color: lavender;
+    color: #369FFF;
 }
 
 .sidebarIcons{

@@ -1,14 +1,22 @@
 import React from 'react'
-import FeaturedInfo from '../components/feature/FeaturedInfo'
 
 export default function Home() {
   return (
     <div style={{
         flex: 4,
-        backgroundColor: 'lavender',
-        paddingTop: '10px',
+        padding: '25px 35px',
     }}>
-        <FeaturedInfo />
+      <p style={{
+        fontSize: '18px',
+        color: '#369FFF',
+      }}>hello <span style={{
+        fontWeight: 'bold',
+      }}>Bruno</span>, Welcome back !</p>
+      <h2 style={{
+        marginTop: '16px',
+        fontSize: '30px',
+    }}>
+      My Courses</h2>
     </div>
   )
 }

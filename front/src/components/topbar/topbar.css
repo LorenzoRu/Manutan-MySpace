@@ -1,34 +1,18 @@
 .topbar {
     width: 100vw;
     height: 50px;
-    background-color: lightskyblue;
     position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 0;
     z-index: 999;
+    border-end-end-radius: 40px;
+    border-end-start-radius: 40px;
+     box-shadow: 0px 4px 10px #BDBDBD;
 }
 
 .topbarWrapper {
-    height: 100%;
-    padding: 0px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-    font-weight: bold;
-    font-size: 30px;
-    color: darkblue;
-    cursor: pointer;
-}
-
-.topRight {
-    display: flex;
-    align-items: center;
-}
-
-.iconsContainer {
-    cursor: pointer;
-    margin-right: 18px;
-    color: #555;
 }
