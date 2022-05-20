@@ -6,16 +6,18 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-import Budget from './routes/Budget';
-import Finances from './routes/finances';
 import RSE from './routes/RSE';
+import General from './routes/general';
+import Budget from './routes/budget';
+import Porduct from './routes/porduct';
 ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
+          <Route path="/general" element={<General />} />
           <Route path="/budget" element={<Budget />} />
-          <Route path="/finances" element={<Finances />} />
           <Route path="/RSE" element={<RSE />} />
+          <Route path="/product" element={<Porduct />} />
         </Route>
       </Routes>
     </BrowserRouter>

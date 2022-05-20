@@ -14,7 +14,7 @@ export default function Topbar() {
                     height: '32px',
                     border: 'solid 1px #BDBDBD',
                     paddingLeft: '20px',
-                    borderRadius: '10px 0px 0px 0px'
+                    borderRadius: '10px 0px 0px 10px'
                 }} />
                 <button type={'submit'} 
                 style={{

@@ -1,0 +1,13 @@
+.content {
+    width: 100%;
+    display: flex;
+
+}
+
+.sumWrapper {
+    display: flex;
+}
+
+.container {
+    margin-left: 20px;
+}

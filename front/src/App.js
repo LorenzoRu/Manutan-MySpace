@@ -1,4 +1,3 @@
-// import { Link, Outlet } from 'react-router-dom';
 import { Button, ButtonGroup } from '@mui/material';
 import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/topbar/Topbar';
@@ -19,7 +18,7 @@ export default function App() {
           marginTop: '10px',
           padding: '10px',
           boxSizing: 'content-box',
-          backgroundColor: '#fff',
+          backgroundColor: '#F3F4F8',
           backgroundImage: `url("/img/manutan.svg")`,
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'right top',
@@ -29,7 +28,7 @@ export default function App() {
             display: 'flex',
             
           }}> 
-          <img src='/img/expand-more.svg' /> 
+          <img src='/img/expand-more.svg' alt="expend-more"/> 
           <h2 style={{
             fontSize: '30px',
           }}>Historique de commandes 📦</h2>
@@ -63,17 +62,6 @@ export default function App() {
                 <Button style={{textTransform: 'none'}} className='select active'>Month</Button>
               </ButtonGroup></div>
           </div>
-          {/* <nav
-          style={{
-            borderBottom: "solid 1px",
-            paddingBottom: "1rem",
-          }}
-        >
-          <Link to="/budget">Budget</Link> |{" "}
-          <Link to="/finances">Finances</Link> |{" "}
-          <Link to="/RSE">RSE</Link>
-        </nav>
-          <Outlet /> */}
 
         </div>
 

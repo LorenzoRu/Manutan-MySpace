@@ -6,4 +6,5 @@
 .select.active, .select:hover {
     color: #369FFF !important;
     background-color: none !important;
+    text-decoration: underline!important;
 }

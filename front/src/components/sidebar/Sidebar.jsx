@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Setting } from 'react-iconly';
 import "./sidebar.css";
 
 
@@ -12,7 +11,7 @@ export default function Sidebar() {
       position: 'sticky',
       top: '50px',
       borderRight: '2px solid #F0F0F0',
-      backgroundColor: '#F0F0F0',
+      backgroundColor: '#fff',
       }}>
       <div style={{
         padding: '78px 20px',
@@ -29,10 +28,10 @@ export default function Sidebar() {
             </li>
             <li className="sidebarListItems">
              
-              Course
+              Panier
             </li>
             <li className="sidebarListItems">
-              Resources
+              Messagerie 
             </li>
             <li className="sidebarListItems">
               Messages
