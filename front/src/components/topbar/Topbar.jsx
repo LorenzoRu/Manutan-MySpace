@@ -7,7 +7,9 @@ export default function Topbar() {
     return (
         <div className='topbar'>
             <div className="topbarWrapper">
-                <input type="text" 
+                <img src="/img/logo.svg" alt="logo"  className='logo'/>
+                <div className='searchWrapper'>
+                  <input type="text" 
                 placeholder='Recherchez parmi nos 260 000 références, conseils, services...'
                 style={{
                     width: '632px',
@@ -36,7 +38,16 @@ export default function Topbar() {
                         marginTop: '8px',
                     }} />
                 </button>
+            </div>  
+            <div style={{display: 'flex',justifyContent: 'center'} }>
+                <img src="/img/profile.svg" alt="profil" />
+                <div style={{display:'flex', flexDirection: 'column'}} >
+                    <span style={{fontSize: "12px", fontWeight: "bold"}}>CARPENTIER</span>
+                    <span  style={{fontSize: "12px"}}>Lou</span>
+                </div>
             </div>
+                </div>
+                
         </div>
     )
 }

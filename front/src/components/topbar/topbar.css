@@ -13,6 +13,18 @@
 }
 
 .topbarWrapper {
+    width: 80vw;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+.searchWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 13%;
 }
