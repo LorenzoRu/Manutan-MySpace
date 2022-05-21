@@ -8,6 +8,7 @@ export default function Sidebar() {
     <div style={{
       flex: 1,
       height: 'calc(100vh - 50px)',
+      width: '160px',
       position: 'sticky',
       top: '50px',
       borderRight: '2px solid #F0F0F0',

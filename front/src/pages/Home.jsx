@@ -1,40 +1,38 @@
 import { Button } from '@mui/material'
 import React from 'react'
-import { Link, Outlet, NavLink } from 'react-router-dom'
+import {Outlet, NavLink } from 'react-router-dom'
 import Summary from '../components/summary/Summary'
 
 export default function Home() {
-  let activeStyle = {
-    color: 'red'
-  };
 
   let activeClassName = 'contained';
   let unactive = 'outlined';
   return (
     <div style={{
-        flex: 4,
-        padding: '25px 30px',
+      height: 'calc(100vh - 50px)',
+        flex: 3,
+        padding: '1px 30px 0',
     }}>
       <p style={{
-        fontSize: '18px',
+        fontSize: '15px',
         color: '#369FFF',
       }}>Bonjour <span style={{
         fontWeight: 'bold',
       }}>Lou</span>, Welcome back !</p>
       <h2 style={{
-        marginTop: '16px',
-        fontSize: '30px',
+        marginTop: '15px',
+        fontSize: '20px',
     }}>
       Suivi de commande</h2>
       <Summary />
       <section className='widgetWrapper'
       style={{
-        marginTop: '30px',
-        width: '100%',
-        height: '67%',
+        marginTop: '15px',
+        height: '74%',
         backgroundColor: '#F3F4F8',
         borderRadius: '18px 18px 0 0',
         padding: ' 10px 0 0 25px',
+        overflow: 'scroll'
       }}>
         <nav
           style={{

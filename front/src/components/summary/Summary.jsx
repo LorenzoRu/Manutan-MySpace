@@ -7,19 +7,21 @@ export default function Summary() {
             <div className="content">          
             <div className='sumWrapper'>
                     <div style={{
-                        width: '135px',
-                        height: '135px',
+                        width: '100px',
+                        height: '100px',
                         backgroundImage: 'url(./img/bleu.svg)',
+                        backgroundSize: 'cover',
                     }}
                     className="container">
                     </div>
                     <div style={{
-                        width: '135px',
-                        height: '135px',
+                        width: '100px',
+                        height: '100px',
                         backgroundImage: 'url(./img/orange.svg)',
                         display: 'flex',
                         flexDirection: 'column',
                         color: '#fff',
+                        backgroundSize: 'cover',
                     }} className="container">
                         <div style={{
                             marginTop: '2px',
@@ -29,33 +31,36 @@ export default function Summary() {
                             fontWeight: 'bold',
                         }}>...</div>
                         <div style={{
-                            fontSize: '40px',
+                            fontSize: '25px',
                             fontWeight: 'bold',
                             marginLeft: '10px',
                         }}>1</div>
                         <div style={{
-                            fontSize: '16px',
+                            fontSize: '12px',
                             marginLeft: '10px',
                         }}>Commande retardée</div>
                     </div>
                     <div style={{
-                        width: '135px',
-                        height: '135px',
+                        width: '100px',
+                        height: '100px',
                         backgroundImage: 'url(./img/red.svg)',
+                        backgroundSize: 'cover',
                     }}
                     className="container">
                     </div>
                     <div style={{
-                        width: '135px',
-                        height: '135px',
+                        width: '100px',
+                        height: '100px',
                         backgroundImage: 'url(./img/pink.svg)',
+                        backgroundSize: 'cover',
                     }}
                     className="container">
                     </div>
                     <div style={{
-                        width: '135px',
-                        height: '135px',
+                        width: '100px',
+                        height: '100px',
                         backgroundImage: 'url(./img/green.svg)',
+                        backgroundSize: 'cover',
                     }}
                     className="container">
                     </div>

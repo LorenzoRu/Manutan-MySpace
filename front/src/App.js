@@ -9,11 +9,11 @@ export default function App() {
   return (
     <section>
       <Topbar />
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex',}}>
         <Sidebar />
         <Home />
         <div style={{
-          flex: 2,
+          flex: 1,
           borderRadius: '40px 0px 0px 40px',
           marginTop: '10px',
           padding: '10px',
