@@ -105,6 +105,7 @@ export default function General() {
               </IconButton>
             }
             subheader="Dépenses"
+            
           />
           <CardContent  sx={{ paddingTop: 0, display: 'flex', flexDirection: 'column' }} >
             <div >

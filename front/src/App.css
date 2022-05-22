@@ -8,3 +8,15 @@
     background-color: none !important;
     text-decoration: underline!important;
 }
+
+.histWrapper {
+    margin-top: 8px;
+    width: 100%;
+    height: 75%;
+    overflow: scroll;
+    background-color: #369FFF;
+}
+
+.orange {
+    color: #FFB168;
+}

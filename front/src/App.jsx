@@ -3,6 +3,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/topbar/Topbar';
 import Home from './pages/Home';
 import "./App.css";
+import DCard from './components/card';
 
 
 export default function App() {
@@ -61,6 +62,9 @@ export default function App() {
                 <Button style={{textTransform: 'none'}} className='select' >Week</Button>
                 <Button style={{textTransform: 'none'}} className='select active'>Month</Button>
               </ButtonGroup></div>
+          </div>
+          <div className="histWrapper">
+            <DCard />
           </div>
 
         </div>
