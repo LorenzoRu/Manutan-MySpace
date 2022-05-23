@@ -63,35 +63,76 @@ export default function RSE() {
                         <span style={{ fontSize: 34, color: '#3D424A', fontWeight: '700' }}>2t</span>
                         <span style={{ fontSize: 26, color: '#3D424A' }}>de carbone</span>
                     </div>
-                    <Button 
-                    style={{fontSize: 10,color: '#0085FF'}}
-                    variant="outlined"
-                    sx={{borderRadius: 25,}}>
-                    Comment réduire le taux de carbone de mes commandes ? </Button>
+                    <Button
+                        style={{ fontSize: 10, color: '#0085FF', textTransform: 'none' }}
+                        variant="outlined"
+                        sx={{ borderRadius: 25, }}>
+                        Comment réduire le taux de carbone de mes commandes ? </Button>
                 </CardContent>
             </Card>
             <Card sx={{
-        maxWidth: '100%',
-        maxHeight: "40%",
-        borderRadius: '18px'
-      }}>
-        <CardHeader
-          action={
-            <IconButton aria-label="settings">
-              <MoreHoriz/>
-            </IconButton>
-          }
-          sx={{fontFamily: 'Manrope'}}
-          subheader="Bilan carbone par pôles d’activités"
-        />
-        <CardContent>
-         <div >
-            <PieC />
-         </div>
-        </CardContent>
-      </Card>
-           
-           
+                width: '80%',
+                maxHeight: "40%",
+                borderRadius: '18px'
+            }}>
+                <CardHeader
+                    action={
+                        <IconButton aria-label="settings">
+                            <MoreHoriz />
+                        </IconButton>
+                    }
+                    sx={{ fontFamily: 'Manrope' }}
+                    subheader="Bilan carbone par pôles d’activités"
+                />
+                <CardContent>
+                    <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                        <PieC />
+                        <div style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                        }}>
+                            <div style={{
+                                width: 300,
+                                display: 'flex',
+                                alignItems: 'center',
+                                marginBottom: 7.5
+                            }}>
+                                <div style={{
+                                    height: 15,
+                                    width: 15,
+                                    backgroundColor: '#2BB3FF',
+                                    borderRadius: '5px',
+                                }}></div>
+                                <span>Logistique</span>
+                                <div style={{marginLeft: 50 }}>
+                                    <span style={{color: '#6C6E79'}}>25%</span>
+                                    <span style={{marginLeft: 20}}>158,5 tCO2</span>
+                                </div>
+                            </div>
+                            <div style={{
+                                width: 300,
+                                display: 'flex',
+                                alignItems: 'center',
+                                marginBottom: 7.5
+                            }}>
+                                <div style={{
+                                    height: 15,
+                                    width: 15,
+                                    backgroundColor: '#2BB3FF',
+                                    borderRadius: '5px',
+                                }}></div>
+                                <span>Logistique</span>
+                                <div style={{marginLeft: 50 }}>
+                                    <span style={{color: '#6C6E79'}}>25%</span>
+                                    <span style={{marginLeft: 20}}>158,5 tCO2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </CardContent>
+            </Card>
+
+
         </section>
     )
 }
