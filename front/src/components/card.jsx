@@ -9,19 +9,23 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 
 export default function DCard({
-  title = 'NB-799',
-  subheader = 'Acheté : Ven 04/05/22',
-  img = "/img/progressErorr.svg" ,
-  color ="orange",
-  date= "(Jeu 12/05/22)",
-  error= "Problème de transporteur",
-  estime= "Estimation date de livraison : Lun 20/05/22"}) {
+  title = ' ',
+  subheader = ' ',
+  img = " " ,
+  color =" ",
+  dat= "  ",
+  erro= " ",
+  estim= " ",
+  status = " "}) {
 
   return (
     <Card sx={{
       width: '100%',
-      borderRadius: '18px'
-    }}>
+      borderRadius: '18px',
+      marginTop: 2,
+    }}
+   className={color}
+    >
       <CardHeader
         action={
           <IconButton aria-label="settings">
@@ -39,12 +43,12 @@ export default function DCard({
       <CardContent>
         <img src={img} alt="status commande" style={{ width: '100%', }} />
         <div style={{display: 'flex', justifyContent:"center", alignItems: 'center'}}>
-          <span className={color} style={{textTransform: 'uppercase', fontFamily: 'Manrope', fontSize: 14}}>retardée</span>
-          <span style={{fontFamily: 'Manrope', marginLeft: 10, fontSize: 9}}>{date}</span>
+          <span className={color} style={{textTransform: 'uppercase', fontFamily: 'Manrope', fontSize: 14}}>{status}</span>
+          <span style={{fontFamily: 'Manrope', marginLeft: 10, fontSize: 9}}>{dat}</span>
         </div>
         <div style={{display: 'flex', justifyContent:"center", alignItems: 'center', flexDirection: 'column'}}>
-          <span style={{ fontFamily: 'Manrope', fontSize: 9}}>{error}</span>
-          <span style={{fontFamily: 'Manrope', marginTop: 10, fontSize: 9}}>{estime}</span>
+          <span style={{ fontFamily: 'Manrope', fontSize: 9}}>{erro}</span>
+          <span style={{fontFamily: 'Manrope', marginTop: 10, fontSize: 9}}>{estim}</span>
         </div>
       </CardContent>
     </Card>

@@ -3,7 +3,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Topbar from './components/topbar/Topbar';
 import Home from './pages/Home';
 import "./App.css";
-import DCard from './components/card';
+import CommandListe from './components/CommandListe';
 
 
 export default function App() {
@@ -23,6 +23,7 @@ export default function App() {
           backgroundImage: `url("/img/manutan.svg")`,
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'right top',
+          height: 'calc(100vh - 90px)',
         }} >
           <div style={{
             marginTop: '15px',
@@ -64,7 +65,7 @@ export default function App() {
               </ButtonGroup></div>
           </div>
           <div className="histWrapper">
-            <DCard />
+            <CommandListe />
           </div>
 
         </div>

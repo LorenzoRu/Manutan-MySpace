@@ -14,9 +14,18 @@
     width: 100%;
     height: 75%;
     overflow: scroll;
-    background-color: #369FFF;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .orange {
     color: #FFB168;
+}
+
+.blue {
+    color: #65B5FF;
+}
+
+.green {
+    background-color: #D3EEBE !important;
 }

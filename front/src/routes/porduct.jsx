@@ -1,7 +1,7 @@
 import { MoreHoriz } from '@mui/icons-material'
 import { Card, CardContent, CardHeader, IconButton } from '@mui/material'
 import React from 'react'
-import MyCollaps from '../components/Collaps'
+import Pliste from '../components/Pliste'
 
 export default function Porduct() {
   return (
@@ -41,8 +41,8 @@ export default function Porduct() {
         }}> 
         <span>Écologique</span>
         <img src="/img/sprout.svg" alt="sprout" style={{marginLeft: 10}} />
-        </div>
-        <MyCollaps/>
+        </div> 
+        <Pliste/>
       </CardContent>
     </Card>
     </section>
