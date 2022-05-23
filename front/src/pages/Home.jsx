@@ -69,12 +69,17 @@ export default function Home() {
               RSE</Button> 
             )}    
             </NavLink>
-            <Button variant={unactive} style={{textTransform: 'none',
+            <NavLink to="/services" style={{textDecoration: 'none'}}>
+              {({isActive})=>(
+               <Button variant={isActive ? activeClassName : unactive} style={{textTransform: 'none',
               borderRadius: '50px',
               marginRight: '10px',
               width: '150px',
               }}>
               Mes services</Button> 
+            )}  
+              
+              </NavLink>
               <NavLink to="/product" style={{textDecoration: 'none'}}>
             {({isActive})=>(
                <Button variant={isActive ? activeClassName : unactive} style={{textTransform: 'none',

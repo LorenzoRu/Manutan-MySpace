@@ -10,6 +10,7 @@ import RSE from './routes/RSE';
 import General from './routes/general';
 import Budget from './routes/budget';
 import Porduct from './routes/porduct';
+import Services from './routes/Services';
 ReactDOM.render(
     <BrowserRouter>
       <Routes>
@@ -18,6 +19,7 @@ ReactDOM.render(
           <Route path="/budget" element={<Budget />} />
           <Route path="/RSE" element={<RSE />} />
           <Route path="/product" element={<Porduct />} />
+          <Route path="/services" element={<Services />} />
         </Route>
       </Routes>
     </BrowserRouter>

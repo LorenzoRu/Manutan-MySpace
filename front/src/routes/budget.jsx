@@ -20,15 +20,14 @@ export default function Budget() {
                 <MoreHoriz />
               </IconButton>
             }
-            subheader="Dépenses"
+            title="Budget disponible"
             
           />
           <CardContent  sx={{ paddingTop: 0, display: 'flex', flexDirection: 'column' }} >
             <div >
               <ButtonGroup variant="string" aria-label="text button group" sx={{display: 'flex', flexWrap: 'wrap', }} >
-                <Button style={{ textTransform: 'none', fontFamily: 'Manrope', fontSize: 12 }} className='select active' >Hebdomadaire</Button>
-                <Button style={{ textTransform: 'none', fontFamily: 'Manrope', fontSize: 12  }} className='select' >Mensuelles</Button>
-                <Button style={{ textTransform: 'none', fontFamily: 'Manrope', fontSize: 12  }} className='select'>Annuelle</Button>
+                <Button style={{ textTransform: 'none', fontFamily: 'Manrope', fontSize: 12 }} className='select active' >Mois</Button>
+                <Button style={{ textTransform: 'none', fontFamily: 'Manrope', fontSize: 12  }} className='select'>Année</Button>
               </ButtonGroup></div>
               <span style={{ fontWeight: 'bold', fontSize: 24, color: '#0085FF' }} >10 374,87€</span>
               <div style={{ display: 'flex', flexDirection: 'column', marginTop: 10 }}>
