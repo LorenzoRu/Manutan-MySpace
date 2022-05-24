@@ -98,7 +98,7 @@ export default function RSE() {
                                 <div style={{
                                     height: 15,
                                     width: 15,
-                                    backgroundColor: '#F67CF2',
+                                    backgroundColor: '#FDC23C',
                                     borderRadius: '5px',
                                     marginRight: 5
                                 }}></div>
@@ -117,7 +117,7 @@ export default function RSE() {
                                 <div style={{
                                     height: 15,
                                     width: 15,
-                                    backgroundColor: '#FDC23C',
+                                    backgroundColor: '#C4C7CF',
                                     borderRadius: '5px',
                                     marginRight: 5
                                 }}></div>
@@ -136,7 +136,7 @@ export default function RSE() {
                                 <div style={{
                                     height: 15,
                                     width: 15,
-                                    backgroundColor: '#C4C7CF',
+                                    backgroundColor: '#F67CF2',
                                     borderRadius: '5px',
                                     marginRight: 5
                                 }}></div>

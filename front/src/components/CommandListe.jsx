@@ -38,7 +38,8 @@ import DCard from './card'
     color:"green",
     dat: "",
     erro: "",
-    estim: " "
+    estim: " ",
+    status: "Livrée"
  },
  ]
 
